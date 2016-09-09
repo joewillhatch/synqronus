@@ -1,0 +1,54 @@
+1a.footer-logo-link {text-transform: none;}
+
+h2 {font-size: 23px;}
+
+.header-meta {
+background-color: #181a2b;
+}
+
+  a.footer-logo-link:before {
+    top: 0;
+    border-top: none;
+    border-left: none;
+    border-right: none; }
+  a.footer-logo-link:after {
+    bottom: 0;
+    border-bottom: none;
+    border-left: none;
+    border-right: none; }
+
+a.footer-logo-link {
+  font-size: 16px;
+  text-align: left;
+}
+
+header.page-header {
+display: none;
+}
+
+.posts-listing {
+background-color: white;
+ padding: 16px;
+}
+
+.site-content .row {
+  padding: 50px 30px;
+  background-color: white;}
+
+.entry-meta .comments {
+display: none;
+}
+
+.header-showcase_title {
+    font-size: 46px;
+    line-height: 58px;
+    padding: 0 0 10px 0;
+    font-weight: bold; }
+    @media (max-width: 1200px) {
+      .header-showcase_title {
+        font-size: 36px;
+        line-height: 38px; } }
+    @media (max-width: 900px) {
+      .header-showcase_title {
+        font-size: 26px;
+        line-height: 28px; } }
